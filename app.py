@@ -28,7 +28,7 @@ def index():
         for i in matching_countries: 
             empty_lst.append(i[0])
 
-    return render_template('index.html', empty_lst)
+    return render_template('index.html', x=empty_lst)
 
 
 # Running the Flask app
